@@ -1,0 +1,31 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    padding : 5px ;
+
+    position: fixed;
+    width : 100%; /*전체 너비를 사용하겠다는 의미?*/
+    top : 0; /*위에 바짝 붙이기*/
+}
+
+.status-bar__column{
+    width: 33%;
+} /*맨 끝이 잘려서 해결하려고 추가, 대신 전반적인 부분이 왼쪽 쏠림 발생*/
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end; /*또짤림*/
+    align-items: center; /*위아래어긋남교정*/
+}
+
+.status-bar__column:first-child i{
+    margin-left : 5px;
+}
+.status-bar__column .fa-battery-full{
+    margin-left : 5px;
+    margin-right: 25px;
+    /*오른쪽 잘림 때문에 정렬 다시 했는데 또 발생해서 대충 야매로 해결한 느낌*/
+}

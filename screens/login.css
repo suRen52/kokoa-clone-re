@@ -1,11 +1,14 @@
+/* 참고 ':' 사용시 공백 여부에 따라 다르게 적용됨, 선택범위변화
+    즉, _text:last-child와 _text :last-child가 지칭하는 것이 다를 수 있음
+    정확히 이해하지 못했으나 요소를 기준으로 처음, 마지막을 보는건데
+    요소가 지금 p 한가지기 때문에 좀 더 정확히 지칭하기 위해서는
+    .head p:last-child를 사용할 수도 있음*/
+
 .head{
     display : flex;
     flex-direction: column;
     text-align: center;
     padding : 70px 0;
-
-    position : relative;
-    
 }
 
 .head_title{
@@ -16,13 +19,6 @@
 .head_text{
     font-size: 15px;
     color : grey;
+    /*줄변경 하는 방법*/
 }
 
-.head p:last-child{ /*: 사용시 공백 여부에 따라 다르게 적용됨, 선택범위변화
-    즉, _text:last-child와 _text :last-child가 지칭하는 것이 다를 수 있음
-    정확히 이해하지 못했으나 요소를 기준으로 처음, 마지막을 보는건데
-    요소가 지금 p 한가지기 때문에 좀 더 정확히 지칭하기 위해서는
-    .head p:last-child가 좋을 듯함*/
-    position : absolute;
-    bottom : 15px;
-}

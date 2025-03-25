@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>05:20</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full"></i>
+        </div>
+
+    </div>
+
+    <div class="top-bar">
+        <div class="top-bar_text">
+         <span>Chats</span></div>
+        <div class="top-bar_icon">
+         <i class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-solid fa-comment-medical"></i>
+         <i class="fa-solid fa-music"></i>
+         <i class="fa-solid fa-gear"></i>
+        </div>
+    </div>
+
+    <main class="chat_screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnbCdF_G2XOkX4iY3HkHjQWhAbeuqLofA6w&s" 
+                class="user-component__avatar"/>
+                <div class="user-component__text">
+                    <p class="user-component__title">KokoaTalk</p>
+                    <p class="user-component__subtitle">Please check My Kokoa Account info</p>
+                </div>
+                <div class="user-component__read">
+                    <!--column으로 동일하게 지어야함?-->
+                    <span class="user-component__time">22:22</span>
+                    <span class="badge">1</span>
+                </div>
+                </div></div>
+    </main>
+
+    <nav class="nav-bar">
+        <ul class="nav__list">
+           <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a></li>
+            <!--<i class="fa-solid fa-user fa-2x"></i>-->
+            <li class="nav__btn"><a class="nav__link" href="chats.html"><i class="fa-solid fa-comment fa-2x"></i><span class="nav__badge badge">1</span></a></li>
+            <!--<i class="fa-regular fa-comment"></i>-->
+            <li class="nav__btn"><a class="nav__link" href="search.html"><i class="fa-solid fa-magnifying-glass-plus fa-2x"></i></a></li>
+            <!--<i class="fa-solid fa-magnifying-glass"></i>-->
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i><span class="nav__notif"></span></a></li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/2a89987828.js" crossorigin="anonymous"></script>
+</body>
+</html>

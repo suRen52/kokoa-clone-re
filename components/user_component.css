@@ -1,0 +1,48 @@
+.user-component{
+    justify-content: space-between;
+} /*적용안됨*/
+
+.user-component__column:first-child,
+.user_component{
+    display: flex;
+    align-items:  center;
+}
+.user-component__avatar{
+    width : 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left : 25px;
+}
+.user-component__avatar--xl{
+    width : 80px;
+    height: 80px;
+}
+.user-component__avatar--sm{
+    width : 60px;
+    height: 60px;
+}
+
+.user-component__text{
+    padding : 0 15px;
+}
+.user-component__title{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom : 5px;
+}
+.user-component__subtitle, 
+.fa-angle-right,
+.user-component__time{
+    color : var(--light-grey);
+}
+
+.user-component__title--not-bold{
+    font-weight: 400;
+}
+
+.user-component__read{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:  flex-end;
+}

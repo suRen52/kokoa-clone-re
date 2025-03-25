@@ -1,0 +1,38 @@
+.nav-bar{
+    background-color : rgba(0, 0, 0, 0.04); 
+
+    position: fixed;
+    width : 100%;
+    bottom : 0;
+}
+.nav__list{
+    display : flex; 
+    /*li에 적용시키고 싶으므로 부모요소인 ul에 지정, nav가 아닌*/
+    justify-content : space-between;
+    margin : 0 30px; /*btn 또는 i가 아니라 부모에 줘야하는 이유
+    적용이 안 됨, justify-content: space-between;과 충돌할 수 있음
+    이미 간격이 적용되어 있는데 margin을 또 주었기 때문에 무시되었을 확률*/
+
+    /*근데 부모에 적용하면 부모 box주위로 margin이 생겨야하는거 아닌가 왜 안에 공백이 생김?
+    그건 nav-bar에 적용했을 때 이야기인 듯함*/
+}
+
+.nav__badge{
+    position: absolute;
+    left : 15px;
+    bottom : 15px;
+}
+
+.nav__notif{
+    background-color: tomato;
+    height : 5px;
+    width : 5px; 
+    border-radius: 50%;
+    display : flex;
+    justify-content: center;
+    align-content: center;
+
+    position: absolute;
+    left : 30px; 
+    bottom : 25px;
+}

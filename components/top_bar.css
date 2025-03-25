@@ -1,0 +1,13 @@
+.top-bar{
+    display : flex;
+    margin : 55px 15px;
+    justify-content: space-between;
+    align-items: center; /*content아니고 items*/
+}
+.top-bar span{
+    font-size : 25px;
+    font-weight: 500;
+}
+.top-bar i{
+    padding : 0 5px;
+}

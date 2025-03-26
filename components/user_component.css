@@ -1,12 +1,14 @@
-.user-component{
-    justify-content: space-between;
-} /*적용안됨*/
-
 .user-component__column:first-child,
 .user_component{
     display: flex;
     align-items:  center;
+    justify-content: space-between;
 }
+.user-component__column-left{
+    display: flex;
+    align-items: center;
+}
+
 .user-component__avatar{
     width : 70px;
     height: 70px;
@@ -30,7 +32,7 @@
     font-weight: 600;
     padding-bottom : 5px;
 }
-.user-component__subtitle, 
+.user-component__subtitle,
 .fa-angle-right,
 .user-component__time{
     color : var(--light-grey);
@@ -38,11 +40,21 @@
 
 .user-component__title--not-bold{
     font-weight: 400;
+    margin-left: 10px;
 }
 
-.user-component__read{
+.user-component__text{
+    display: flex;
+    flex-direction:column;
+}
+.user-component__column-right{
+    display: flex;
+    margin-right: 20px;
+}
+.user-component__right{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content:  flex-end;
-}
+    align-items: center;
+    margin-right: 20px;
+} 

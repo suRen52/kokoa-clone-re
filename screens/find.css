@@ -1,0 +1,101 @@
+.recommended-friends,
+.open-chat{
+    border-top : 1px solid rgba(0,0,0,0.1);
+    color : var(--light-grey);
+    
+    margin : 60px 15px;
+}
+.recommended-friends{
+    height: 200px;
+    width: 100%;
+}
+
+h6{
+    margin-top : 10px;
+    font-weight: 600;
+}
+
+.recommended-friends span{
+    display: flex;
+    justify-content: center;
+    /*왜 적용이 안 될까요?
+    align-items: center; /*줄을 조정하는건데 한 줄이니까 items*/
+    /*이것도 안 되는데요?
+    text-align: center;*/
+    margin : 90px 0;
+}
+
+.open-chat{
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+}
+.open-chat_right{
+    margin-top : 10px;
+}
+
+.open-post{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.open-post__column{
+    font-size: 15px;
+    margin : 0 15px;
+}
+.open-post__title{
+    font-size: 18px;
+    font-weight: 600;
+    margin : 0 5px;
+}
+.open-post__hashtags{
+    text-transform: uppercase; /*모든 글자가 대문자*/
+    color : var(--light-grey);
+    margin : 10px 3px;
+}
+.open-post__members{
+    display: flex;
+    align-items: center;
+}
+.open-post__members img{
+    width : 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin : 0 5px;
+}
+.open-post__members-count{
+    color : var(--light-grey);
+    margin : 10px 3px;
+}
+.open-post__members .divider {
+    width: 2px;
+    height: 15px;
+    margin : 0 5px;
+    background-color : rgba(0,0,0,0.2);
+}
+.open-post__members-status{
+    color: #ffb0e0;
+  }
+
+.open-post__photo {
+    position: relative;
+}
+.open-post__photo img{
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+}
+.open-post__heart {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+
+    position: absolute; /*맨위에오게함*/
+    bottom: 10px;
+    right: 10px;
+    font-size: 13px;
+}
+.open-post__heart span {
+    margin-left: 3px;
+}

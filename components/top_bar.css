@@ -11,3 +11,18 @@
 .top-bar i{
     padding : 0 5px;
 }
+
+
+.top-bar_icon{
+    position : relative;
+}
+.top-bar_notif-find{
+    position: absolute;
+    left : 55px; 
+    bottom : 15px;
+}
+.top-bar_notif-more{
+    position: absolute;
+    left : 85px; 
+    bottom : 15px;
+}

@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color : rgba(0, 0, 0, 0.04); 
+    background-color : rgb(244, 244, 244); 
 
     position: fixed;
     width : 100%;
@@ -17,23 +17,17 @@
     그건 nav-bar에 적용했을 때 이야기인 듯함*/
 }
 
-/*오류*/
+.nav__btn{
+    position : relative;
+}
 .nav__badge{
     position: absolute;
-    left : 15px;
-    bottom : 15px;
+    left : 35px;
+    bottom : 35px;
 }
 
 .nav__notif{
-    background-color: tomato;
-    height : 5px;
-    width : 5px; 
-    border-radius: 50%;
-    display : flex;
-    justify-content: center;
-    align-content: center;
-
     position: absolute;
-    left : 30px; 
-    bottom : 25px;
+    left : 50px; 
+    bottom : 45px;
 }

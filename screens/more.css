@@ -1,0 +1,15 @@
+.fa-anchor-circle-exclamation{
+    color : rgb(253, 60, 89);
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.Suggestions{
+    border-top : 1px solid rgba(0,0,0,0.1);
+    
+    margin : 60px 15px;
+    color : grey;
+}
+.Suggestions h6{
+    color : var(--light-grey);
+}

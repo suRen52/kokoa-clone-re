@@ -90,11 +90,11 @@ h6{
     color: white;
     padding: 5px;
     border-radius: 20px;
+    font-size: 13px;
 
     position: absolute; /*맨위에오게함*/
     bottom: 10px;
     right: 10px;
-    font-size: 13px;
 }
 .open-post__heart span {
     margin-left: 3px;

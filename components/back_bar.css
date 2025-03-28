@@ -10,5 +10,13 @@
 
 .back-bar span{
     /*완전 중앙이 아님, 다른 페이지에 넣었을 때 변동이 생길 수 있음*/
+    margin-left : 35px;
+}
+
+.back-bar__right{
     margin-right : 15px;
+}
+
+.back-bar__right i{
+    margin : 0 5px;
 }

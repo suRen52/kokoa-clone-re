@@ -1,6 +1,6 @@
 .top-bar{
     display : flex;
-    margin : 55px 15px;
+    margin : 35px 15px;
     justify-content: space-between;
     align-items: center; /*content아니고 items*/
 }
@@ -18,11 +18,16 @@
 }
 .top-bar_notif-find{
     position: absolute;
-    left : 55px; 
-    bottom : 15px;
+    left : 75px; 
+    bottom : 35px;
 }
 .top-bar_notif-more{
     position: absolute;
-    left : 85px; 
-    bottom : 15px;
+    left : 105px; 
+    bottom : 35px;
+}
+
+.top-bar_icon a {
+    display: inline-block;
+    /*i 간의 간격조정필요*/
 }

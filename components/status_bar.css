@@ -27,5 +27,10 @@
 .status-bar__column .fa-battery-full{
     margin-left : 5px;
     margin-right: 25px;
-    /*오른쪽 잘림 때문에 정렬 다시 했는데 또 발생해서 대충 야매로 해결한 느낌*/
+    /*오른쪽 잘림 때문에 정렬 다시 했는데 또 발생해서 해결해봄
+    더 좋은 방법이 있을 것 같음*/
+}
+
+.fa-signal{
+    margin-right : 3px;
 }

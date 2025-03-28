@@ -1,0 +1,12 @@
+.back-bar{
+    display: flex;
+    justify-content: space-between;
+    font-size : 25px;
+    font-weight: 550;
+    margin : 35px 15px;
+}
+
+.back-bar span{
+    /*완전 중앙이 아님, 일단 보류*/
+    margin-left : 15px;
+}

@@ -38,6 +38,7 @@
     border-bottom : 1px solid rgb(163, 163, 163);
     outline:none; /*클릭했을 때 라운드 생기는거 없애고 싶음*/
     margin : 0;
+    transition: border-color 0.3s ease-in-out;
 }
 /*input과 submit 사이에 간격을 벌리고 싶으면 div를 또 만들어야 할까?*/
 

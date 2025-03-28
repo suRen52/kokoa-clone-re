@@ -9,25 +9,32 @@
     border-bottom : 2px solid rgba(0,0,0,0.1);
 }
 
+.icon-column_list:not(:nth-child(5)){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-column_list:nth-child(5){
+    display: flex;
+    align-items: center;
+}
+
 .icon-column__icons{
     padding : 20px 15px;
-    
-    display : flex;
-    justify-content: space-between;
 }
 
 .icon-column__icons i{
     margin-right : 5px;
 }
 
-.icon-column__icons__icon{
- 
-}
 .icon-column__icons__explain{
     color : var(--light-grey);
-    display: flex;
 }
 /*nth-child(2) vs nth-of-type(2)
 nth-child는 해당 부모의 자식 중에서 몇 번째인지를 찾는 것
 nth-of-type은 해당 타입의 자식 중에서 몇 번째인지를 찾는 것, 
 즉, child는 전체에서 세는거, type은 지정 타입 안에서 세는거임*/
+
+.set__badge_T{
+    margin-right: 170px;
+}

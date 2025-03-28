@@ -1,12 +1,14 @@
 .back-bar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
     font-size : 25px;
     font-weight: 550;
     margin : 35px 15px;
 }
 
 .back-bar span{
-    /*완전 중앙이 아님, 일단 보류*/
-    margin-left : 15px;
+    /*완전 중앙이 아님, 다른 페이지에 넣었을 때 변동이 생길 수 있음*/
+    margin-right : 15px;
 }

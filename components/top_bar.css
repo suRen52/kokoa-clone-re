@@ -12,22 +12,24 @@
     padding : 0 5px;
 }
 
-
 .top-bar_icon{
     position : relative;
 }
 .top-bar_notif-find{
     position: absolute;
-    left : 75px; 
+    left : 65px; 
     bottom : 35px;
 }
-.top-bar_notif-more{
+.top-bar_notif-more-bar{
     position: absolute;
-    left : 105px; 
+    left : 95px; 
     bottom : 35px;
 }
 
-.top-bar_icon a {
+ /*a추가로 인한 i의 배열 조정*/
+ .top-bar_icon a {
     display: inline-block;
-    /*i 간의 간격조정필요*/
+}
+.top-bar_icon a i{
+    margin-left: -15px;
 }

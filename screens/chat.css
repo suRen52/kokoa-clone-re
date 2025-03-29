@@ -18,3 +18,124 @@
     display: inline-block; 
   /*글자 크기만큼 div의 크기를 조정하기 위함*/
 }
+
+
+.chat_you{
+    margin : 20px 15px;
+
+    display : flex;
+}
+.chat_you img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+}
+
+.chat_you__name{
+    color : var(--light-grey);
+    margin : 3px 10px;
+}
+
+.chat_you__text{
+    display: flex;
+    margin : 0 10px;
+}
+.chat_you__text_bubble{
+    background-color: white;
+    padding : 8px 10px;
+    border-radius: 10px;
+}
+.chat_you__text_time{
+    color : var(--light-grey);
+    font-size : 10px;
+    margin-top : 20px;
+    margin-left : 5px;
+}
+
+.chat_me{
+    margin : 20px 15px;
+
+    display : flex;
+    justify-content: flex-end;
+}
+.chat_me img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+}
+
+.chat_me__text{
+    display: flex;
+    margin : 0 10px;
+}
+.chat_me__text_bubble{
+    background-color: #FEE500;
+    padding : 8px 10px;
+    border-radius: 10px;
+}
+.chat_me__text_time{
+    color : var(--light-grey);
+    font-size : 10px;
+    margin-top : 20px;
+    margin-right : 5px;
+}
+
+.send-bar{
+    background-color: white;
+
+    position: fixed;
+    width : 100%;
+    bottom : 0;
+
+    display : flex;
+}
+
+.send-bar__plus i{
+    color : var(--light-grey);
+    font-size : 30px;
+    margin : 8px;
+}
+
+.send-bar__input{
+    display : flex;
+    border-radius: 20px;
+    border : rgb(228, 228, 228) 2px solid;
+
+    margin : 3px;
+    width : 100%;
+    height: 35px; 
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.send-bar__input p{
+    font-size : 15px;
+    margin : 10px;
+}
+
+.send-bar__input_icons{
+    font-size : 15px;
+    margin : 10px;
+    
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+}
+
+.send-bar__input_icons-circle{
+    background-color: #FEE500;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-face-grin-wide{
+    font-size : 25px;
+    color : var(--light-grey);
+}

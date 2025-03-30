@@ -2,6 +2,11 @@
     display : flex;
     flex-wrap: wrap;/* 줄이 넘어갈 수 있게 함 */
     margin-top : 15px;
+
+    position : relative;
+    /*icon-row_iconsf를 부모요소로 지정 시, 
+    부모요소가 25%의 비율에 영향을 받기 때문에
+    창의 비율이 변화할 때마다 absolute의 위치가 변화함*/
 }
 .icon-row_icons{
     display : flex;
@@ -12,16 +17,13 @@
     width: 25%;
     margin : 15px 0;
 
-    position : relative;
+    
 }
 .icon-row_icons i{
     padding : 15px;
 }
 .top-bar_notif-more-more{
     position: absolute;
-    left : 85px; 
-    bottom : 15px;
-    /*이 부분 해결 필요*/
 }
 
 .icon-row_icons img{
